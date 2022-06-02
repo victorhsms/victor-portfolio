@@ -4,7 +4,9 @@ import Link from 'next/link'
 export default function HeaderComponent() {
   return (
     <Header>
-      <strong>victor-hugo-macedo</strong>
+      <div className="title-container">
+        <strong>victor-hugo-macedo</strong>
+      </div>
       <nav>
         <ul>
           <li>
