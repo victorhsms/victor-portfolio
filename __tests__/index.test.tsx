@@ -1,15 +1,13 @@
 import { render, screen } from '@testing-library/react'
 
-import Home from 'src/pages/index'
+import Home from '@/pages/index'
 
-describe('Home', () => {
-  it('renders a heading', () => {
+describe('Main content', () => {
+  it('renders a main', () => {
     render(<Home />)
 
-    const heading = screen.getByRole('heading', {
-      name: /Portfolio/i
-    })
+    const main = screen.getByRole('main')
 
-    expect(heading).toBeInTheDocument()
+    expect(main).toBeInTheDocument()
   })
 })

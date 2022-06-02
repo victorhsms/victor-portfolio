@@ -1,5 +1,5 @@
-import styles from '@/pages/index.module.css'
+import { MainContent } from './style'
 
 export default function Home() {
-  return <h1>Portfolio</h1>
+  return <MainContent>Portfolio</MainContent>
 }
