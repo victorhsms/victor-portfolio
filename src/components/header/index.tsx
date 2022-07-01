@@ -5,7 +5,7 @@ export default function HeaderComponent() {
   return (
     <Header>
       <div className="title-container">
-        <strong>victor-hugo-macedo</strong>
+        <strong>victor-hugo</strong>
       </div>
       <nav>
         <ul>

@@ -7,4 +7,5 @@ export const MainContent = styled.main`
   background-color: #011627;
   border: 1px solid #1e2d3d;
   border-radius: 8px;
+  position: relative;
 `

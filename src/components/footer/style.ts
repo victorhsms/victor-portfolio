@@ -1,26 +1,24 @@
 import styled from 'styled-components'
 
-export const Header = styled.header`
+export const Footer = styled.footer`
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   display: flex;
-  border-bottom: 1px solid #1e2d3d;
+  border-top: 1px solid #1e2d3d;
   font-size: 1rem;
   color: #607b96;
 
-  .title-container {
-    width: 20%;
-    padding: 18px 0;
+  .legend {
+    width: max-content;
+    padding: 15px 20px;
     border-right: 1px solid #1e2d3d;
     display: flex;
     align-items: center;
-
-    strong {
-      padding-left: 22px;
-      font-weight: 400;
-    }
   }
 
   nav {
-    width: 80%;
+    flex-grow: 1;
     display: flex;
     justify-content: space-between;
 
@@ -29,14 +27,19 @@ export const Header = styled.header`
       display: flex;
 
       li {
-        padding: 17px 31.5px;
+        padding: 12.5px 14px;
         border-right: 1px solid #1e2d3d;
+        cursor: pointer;
       }
     }
 
-    span {
-      padding: 17px 31.5px;
+    .github-id {
+      padding: 14.5px 23px;
       border-left: 1px solid #1e2d3d;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      cursor: pointer;
     }
   }
 `
